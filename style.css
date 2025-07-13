@@ -30,7 +30,7 @@ body {
 
 /* Header & Navigation */
 .main-header {
-    background-color: rgba(255, 255, 255, 0.95); /* Transparent white */
+    background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     border-bottom: 1px solid #eee;
@@ -76,7 +76,7 @@ nav ul li a:hover {
     text-align: center;
     height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('logo/Faith to Move Mountains.jpg');
+                      url('logo/Faith to Move Mountains.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
