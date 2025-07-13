@@ -1,3 +1,13 @@
+.logo img {
+    height: 40px;       /* You can adjust to 50px or 60px if needed */
+    display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 /* General Setup */
 html {
     scroll-behavior: smooth;
