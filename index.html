@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwin's Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <a href="#home" class="logo">Alwin</a>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Creative Photography</h1>
+                <p>A collection of moments captured through my lens.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="content-section">
+            <div class="container">
+                <h2 class="section-title hidden">My Gallery</h2>
+                <div class="photo-grid">
+                    <!-- Add your photos here. The 'hidden' class is for the animation. -->
+                    <div class="photo-item hidden"><img src="photos/img1.jpg" alt="A beautiful landscape"></div>
+                    <div class="photo-item hidden"><img src="photos/img2.jpg" alt="Urban architecture"></div>
+                    <div class="photo-item hidden"><img src="photos/img3.jpg" alt="A portrait shot"></div>
+                    <div class="photo-item hidden"><img src="photos/img4.jpg" alt="Nature close-up"></div>
+                    <div class="photo-item hidden"><img src="photos/img5.jpg" alt="Monochrome city street"></div>
+                    <div class="photo-item hidden"><img src="photos/img6.jpg" alt="Event photography"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="container about-container hidden">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Hi, I'm Alwin. I'm a passionate photographer based in [Your City]. My journey started with a simple desire to document the world around me, and it has since grown into a core part of who I am. This gallery is a curated selection of my favorite work. Feel free to look around!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 Alwin's Gallery. Inspired by modern design.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
