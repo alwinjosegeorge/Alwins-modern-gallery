@@ -18,7 +18,7 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background-color: #ffffff; /* White background */
-    color: #333333;            /* Dark gray (almost black) text */
+    color: #333333;            /* Black text */
     line-height: 1.7;
 }
 
@@ -30,7 +30,7 @@ body {
 
 /* Header & Navigation */
 .main-header {
-    background-color: rgba(255, 255, 255, 0.95); /* White with transparency */
+    background-color: rgba(255, 255, 255, 0.95); /* Transparent white */
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     border-bottom: 1px solid #eee;
@@ -57,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #555555;           /* Medium-dark text for links */
+    color: #555555;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #000000;           /* Fully black on hover */
+    color: #000000;
 }
 
 /* Hero Section */
@@ -75,9 +75,11 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('photos/hero-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('logo/Faith to Move Mountains.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: #ffffff;
 }
 
@@ -123,7 +125,7 @@ nav ul li a:hover {
 
 .photo-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .photo-item img {
