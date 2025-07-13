@@ -1,5 +1,6 @@
+/* Logo Styling */
 .logo img {
-    height: 40px;       /* You can adjust to 50px or 60px if needed */
+    height: 40px;
     display: block;
 }
 
@@ -16,8 +17,8 @@ html {
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #0d0d0d; /* aesthetic black */
+    color: #ffffff; /* white text */
     line-height: 1.7;
 }
 
@@ -29,10 +30,10 @@ body {
 
 /* Header & Navigation */
 .main-header {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(20, 20, 20, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #222;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -42,13 +43,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #000;
-    text-decoration: none;
 }
 
 nav ul {
@@ -63,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #555;
+    color: #dddddd;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
@@ -71,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #000;
+    color: #ffffff;
 }
 
 /* Hero Section */
@@ -81,7 +75,7 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('photos/hero-background.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('photos/hero-background.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -103,6 +97,7 @@ nav ul li a:hover {
 /* General Content Section Styling */
 .content-section {
     padding: 6rem 0;
+    background-color: transparent;
 }
 
 .section-title {
@@ -110,6 +105,7 @@ nav ul li a:hover {
     font-weight: 700;
     text-align: center;
     margin: 0 0 4rem 0;
+    color: #ffffff;
 }
 
 /* Gallery Grid */
@@ -127,7 +123,7 @@ nav ul li a:hover {
 
 .photo-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
 
 .photo-item img {
@@ -145,16 +141,17 @@ nav ul li a:hover {
 
 .about-text p {
     font-size: 1.1rem;
-    color: #555;
+    color: #cccccc;
 }
 
 /* Footer */
 .main-footer {
     text-align: center;
     padding: 2rem 0;
-    border-top: 1px solid #eee;
-    color: #888;
+    border-top: 1px solid #222;
+    color: #aaaaaa;
     font-size: 0.9rem;
+    background-color: #111;
 }
 
 /* Animation Classes */
