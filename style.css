@@ -103,6 +103,44 @@ nav ul li a:hover {
 }
 
 /* Gallery Grid */
+.scroll-gallery-section {
+  overflow: hidden;
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.scroll-gallery {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-track {
+  display: inline-block;
+  animation: scrollGallery 60s linear infinite;
+}
+
+.scroll-track img {
+  height: 300px;
+  margin-right: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.scroll-track img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scrollGallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
