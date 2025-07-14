@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="https://alwinjosegeorge.github.io/Alwins-modern-gallery/" target="_blank">
-    <img src="photo/photo_6314308563660555594_y.jpg" width="600" alt="Gallery Banner"/>
+    <img src="photos/photo_6314308563660555594_y.jpg" width="600" alt="Gallery Banner"/>
+    
   </a>
 </p>
 
