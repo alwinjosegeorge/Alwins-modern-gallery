@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://alwinjosegeorge.github.io/Alwins-modern-gallery/" target="_blank">
-    <img src="https://alwinjosegeorge.github.io/Alwins-modern-gallery/logo/Faith%20to%20Move%20Mountains.jpg" width="600" alt="Gallery Banner"/>
+    <img src="photo_6314308563660555594_y.jpg" width="600" alt="Gallery Banner"/>
   </a>
 </p>
 
@@ -21,11 +21,17 @@ Welcome to **Alwin’s Modern Gallery**, a curated digital space showcasing mome
 ## 📁 Project Structure
 
 Alwins-modern-gallery/
+
 │
+
 ├── index.html # Main HTML file
+
 ├── styles.css # Gallery styling
+
 ├── logo/ # Backgrounds and banners
+
 ├── gallery/ # All gallery images
+
 └── README.md # You're here
 
 
