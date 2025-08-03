@@ -166,7 +166,9 @@ nav ul li a:hover {
 .visible {
     opacity: 1;
     transform: translateY(0);
-}/* ========== Video Section Styling ========== */
+}
+
+/* ========== Video Section Styling ========== */
 .video-section {
     padding: 60px 20px;
     text-align: center;
