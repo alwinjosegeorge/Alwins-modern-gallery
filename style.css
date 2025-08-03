@@ -140,7 +140,11 @@ nav ul li a:hover {
     max-width: 800px;
     text-align: center;
 }
-
+.video-grid figure video:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
 .about-text p {
     font-size: 1.1rem;
     color: #555555;
