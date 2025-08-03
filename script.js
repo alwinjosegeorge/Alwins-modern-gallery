@@ -1,5 +1,4 @@
-// This code creates the fade-in-on-scroll effect
-
+// ✅ Fade-in-on-scroll effect
 const hiddenElements = document.querySelectorAll('.hidden');
 
 const observer = new IntersectionObserver((entries) => {
@@ -9,7 +8,22 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.1 // Trigger when 10% of the element is visible
+    threshold: 0.1
 });
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+// ✅ Auto-pause other videos when one is playing
+document.addEventListener('DOMContentLoaded', () => {
+    const videos = document.querySelectorAll('video');
+
+    videos.forEach((video) => {
+        video.addEventListener('play', () => {
+            videos.forEach((otherVideo) => {
+                if (otherVideo !== video) {
+                    otherVideo.pause();
+                }
+            });
+        });
+    });
+});
