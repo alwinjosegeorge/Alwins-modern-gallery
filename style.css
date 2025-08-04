@@ -190,14 +190,13 @@ nav ul li a:hover {
     margin-bottom: 30px;
     color: #2E7D32;
 }
-
 .video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-    margin-top: 30px;
-    padding: 0 20px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 300px makes it max 3 on big screens */
+  padding: 20px;
 }
+
 
 .video-grid figure {
     margin: 0;
