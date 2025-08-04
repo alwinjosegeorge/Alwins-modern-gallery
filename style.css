@@ -193,8 +193,8 @@ nav ul li a:hover {
 
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
     margin-top: 30px;
     padding: 0 20px;
 }
