@@ -70,5 +70,9 @@ I won’t say my photos are the best in the world, but I believe every frame tel
 [![Instagram](https://img.shields.io/badge/Instagram-purple?style=flat&logo=instagram)](https://instagram.com/alwin_jose_george)
 
 ---
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=alwinjosegeorge/Alwins-modern-gallery&label=Profile+Views&color=blueviolet&style=flat&labelColor=000000&abbreviated=true"
+    alt="Profile Views"/>
+</p>
 
 > 🧠 *“Photography is the story I fail to put into words.”*
