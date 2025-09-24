@@ -1,7 +1,7 @@
 # Alwin's Modern Gallery
 
 <p align="center">
-  <a href="https://alwinjosegeorge.github.io/Alwins-modern-gallery/" target="_blank">
+  <a href="https://alwins-modern-gallery.vercel.app/" target="_blank">
     <img src="photos/photo_6314308563660555594_y.jpg" width="600" alt="Gallery Banner"/>
     
   </a>
